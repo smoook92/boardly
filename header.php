@@ -34,9 +34,17 @@
                       <div class="col-md-3 col-12">
                         <select class="form-select" aria-label="Default select example">
                           <option selected>Категории</option>
-                          <option value="1">One</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
+                          <?php //категории
+                            //geo
+                            $sql = "SELECT * FROM `category`";
+                            $result = mysqli_query($link, $sql);
+                            while ($row = mysqli_fetch_array($result)){
+                              $id = $row['id'];
+                              $name = $row['name'];
+
+                              echo '<option value="'.$id.'">'.$name.'</option>';
+                            }
+                          ?>
                         </select>
                         <div class="r10px"></div>
                       </div>
