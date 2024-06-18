@@ -12,7 +12,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-12">
-                Местоположение <a href="#geo">Москва</a>
+                Местоположение <a href="/geo/"><?php echo $gorod; ?></a>
                 <div class="r10px"></div>
             </div>
             <div class="col-md-6 col-12">
