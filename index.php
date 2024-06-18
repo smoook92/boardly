@@ -3,22 +3,40 @@
 <div class="container">
   <div class="row">
     <div class="col-md-2 col-12">
-      Авто
+      <center>
+        <img src="/images/Ellipse 1.png" class="img-fluid">
+        <div>Авто</div>
+      </center>
     </div>
     <div class="col-md-2 col-12">
-      Авто
+      <center>
+        <img src="/images/Ellipse 1.png" class="img-fluid">
+        <div>Авто</div>
+      </center>
     </div>
     <div class="col-md-2 col-12">
-      Авто
+      <center>
+        <img src="/images/Ellipse 1.png" class="img-fluid">
+        <div>Авто</div>
+      </center>
     </div>
     <div class="col-md-2 col-12">
-      Авто
+      <center>
+        <img src="/images/Ellipse 1.png" class="img-fluid">
+        <div>Авто</div>
+      </center>
     </div>
     <div class="col-md-2 col-12">
-      Авто
+      <center>
+        <img src="/images/Ellipse 1.png" class="img-fluid">
+        <div>Авто</div>
+      </center>
     </div>
     <div class="col-md-2 col-12">
-      Авто
+      <center>
+        <img src="/images/Ellipse 1.png" class="img-fluid">
+        <div>Авто</div>
+      </center>
     </div>
   </div>
 </div>
@@ -29,7 +47,7 @@
   <div class="row">
     <div class="col-md-9 col-12">
       <h2>Все объявления</h2>
-
+      <div class="r20px"></div>
       <div class="row">
         <div class="col-md-3 col-12">
           <img src="/images/pryamougolnik.png" class="img-fluid" alt="">
@@ -54,7 +72,7 @@
       </div>
     </div>
     <div class="col-md-3 col-12">
-      <h3>Избранное</h3>
+      <h2>Избранное</h2>
       <a href="#">Название iPhone 11 PRO Max</a>
       <p><b>100 000 руб.</b></p>
 

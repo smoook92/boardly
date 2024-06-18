@@ -11,12 +11,15 @@
       <p>Республика Башкортостан, Уфа, садоводческое некоммерческое товарищество Юрмаш, р-н Калининский</p>
     </div>
     <div class="col-md-3 col-12">
-      <h2>100 000 руб.</h2>
-      <button type="button" class="btn btn-success">+7 917 888 XX XX</button>
+      <center>
+        <h2>100 000 руб.</h2>
+      </center>
+      <div class="r15px"></div>
+      <button type="button" class="btn btn-success tel-card">+7 917 888 XX XX</button>
       
-      <div style="height:20px"></div>
+      <div class="r20px"></div>
 
-      <div style="background:#E5EDF5; border-radius: 16px; padding: 20px 20px 20px 20px">
+      <div class="contact-card">
         <center>
           <h4>Альберт</h4>
           <a href="#">все объявления</a>

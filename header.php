@@ -8,25 +8,28 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div style="height: 24px;"></div>
+    <div class="r25px"></div>
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-12">
                 Местоположение <a href="#geo">Москва</a>
+                <div class="r10px"></div>
             </div>
             <div class="col-md-6 col-12">
 
             </div>
             <div class="col-md-3 col-12">
-                <button type="button" class="btn btn-success podat_objavlenie">+ Подать объявление</button>
+                <button type="button" class="btn btn-success podat_objavlenie">Подать объявление</button>
+                <div class="r10px"></div>
             </div>
             <div class="col-12">
                 <h1>Boardly</h1>
+                <div class="r20px"></div>
             </div>
             <div style="height: 18px;"></div>
 
             <div class="col-12">
-                <div class="alert alert-primary" role="alert">
+                <div class="alert alert-primary poisk" role="alert">
                     <div class="row">
                       <div class="col-md-3 col-12">
                         <select class="form-select" aria-label="Default select example">
@@ -35,15 +38,20 @@
                           <option value="2">Two</option>
                           <option value="3">Three</option>
                         </select>
+                        <div class="r10px"></div>
                       </div>
                       <div class="col-md-8 col-12">
                         <input type="text" class="form-control" placeholder="Поиск по объявлениям">
+                        <div class="r10px"></div>
                       </div>
                       <div class="col-md-1 col-12">
                         <button class="btn btn-outline-light">Найти</button>
+                        <div class="r10px"></div>
                       </div>
                     </div>
                   </div>                  
             </div>
         </div>
     </div>
+
+    <div class="r20px"></div>
