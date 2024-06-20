@@ -1,5 +1,18 @@
 <?php 
   $url = $_SERVER['REQUEST_URI'];
+
+  if ($url == '/admin/index.php') {
+    include('admin/index.php');
+
+    exit;
+  };
+
+  if($url[strlen($url)-1]!='/'){
+    header("Location: ".$url.'/');
+
+    exit;
+  }
+
   $url_m = explode('/', $url);
 
   $link = new mysqli('localhost', 'root', '', 'boardly_db');
@@ -23,11 +36,13 @@
 
     if($gorod == ''){$gorod = 'Россия'; $v_gorode = 'в России'; $geo_url = 'russia';}
 
-    if($g == 0) $category_url = $url_m[1];
-    else $category_url = $url_m[2];
-
-  if($category_url!='') include ('page/category.php');
-  else include('page/index.php');
-
+    if($url_m[3]!='') include ('page/tovar.php');
+    else{
+      if($g == 0) {$category_url = $url_m[1]; if ($url_m[2] != '') {include ('page/tovar.php'); }}
+      else $category_url = $url_m[2];
+  
+      if($category_url!='') include ('page/category.php');
+      else include('page/index.php');
+    }
   }
 ?>

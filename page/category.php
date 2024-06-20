@@ -37,7 +37,7 @@ include('header.php'); ?>
         $sql = "SELECT * FROM `objavlenie` WHERE category_id='$id_category'";
         $result = mysqli_query($link, $sql);
         while ($row=mysqli_fetch_array($result)){
-            $id_category = $row['id'];
+            $id_product = $row['id'];
             $nazvanie = $row['nazvanie'];
             $cena = $row['cena'];
             $opisanie = $row['opisanie'];
@@ -50,7 +50,9 @@ include('header.php'); ?>
                     <img src="/images/pryamougolnik.png" class="img-fluid">
                 </div>
                 <div class="col-sm-6">
-                    <a href="#"><?php echo $nazvanie;?></a>
+                    <?php $link = $_SERVER['REQUEST_URI'].$id_product.'/';?>
+
+                    <a href="<?php echo $link; ?>"><?php echo $nazvanie;?></a>
                     <p><b><?php echo $cena;?> руб.</b></p>
                     <p><?php echo $opisanie; ?></p>
                 </div>
